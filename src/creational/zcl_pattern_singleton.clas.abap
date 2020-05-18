@@ -9,7 +9,10 @@ CLASS zcl_pattern_singleton DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_pattern_singleton IMPLEMENTATION.
+
+
+CLASS ZCL_PATTERN_SINGLETON IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA: lo_singleton TYPE REF TO lcl_singleton.
@@ -17,5 +20,4 @@ CLASS zcl_pattern_singleton IMPLEMENTATION.
     " Создание инстанции класса "LCL_SINGLETON" вне класса не разрешено - CREATE OBJECT lo_singleton.
     lo_singleton = lcl_singleton=>get_instance( ).
   ENDMETHOD.
-
 ENDCLASS.

@@ -9,7 +9,10 @@ CLASS zcl_pattern_builder DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_pattern_builder IMPLEMENTATION.
+
+
+CLASS ZCL_PATTERN_BUILDER IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -25,5 +28,4 @@ CLASS zcl_pattern_builder IMPLEMENTATION.
     out->write( lo_roduct->write( ) ).
 
   ENDMETHOD.
-
 ENDCLASS.

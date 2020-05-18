@@ -9,7 +9,10 @@ CLASS zcl_pattern_command DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_pattern_command IMPLEMENTATION.
+
+
+CLASS ZCL_PATTERN_COMMAND IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA(lo_light) = NEW lcl_light( ).
@@ -27,5 +30,4 @@ CLASS zcl_pattern_command IMPLEMENTATION.
     out->write( lo_switch->flip_down( ) ).
 
   ENDMETHOD.
-
 ENDCLASS.

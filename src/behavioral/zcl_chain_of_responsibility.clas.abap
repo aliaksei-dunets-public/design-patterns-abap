@@ -9,7 +9,10 @@ CLASS zcl_chain_of_responsibility DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_chain_of_responsibility IMPLEMENTATION.
+
+
+CLASS ZCL_CHAIN_OF_RESPONSIBILITY IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -43,5 +46,4 @@ CLASS zcl_chain_of_responsibility IMPLEMENTATION.
                     ) ).
 
   ENDMETHOD.
-
 ENDCLASS.

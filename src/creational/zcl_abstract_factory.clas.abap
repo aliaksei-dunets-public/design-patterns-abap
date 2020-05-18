@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_abstract_factory IMPLEMENTATION.
+CLASS ZCL_ABSTRACT_FACTORY IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -34,5 +35,4 @@ CLASS zcl_abstract_factory IMPLEMENTATION.
     out->write( NEW lcl_concrete_factory_2( )->create_product_a( )->run( ) ).
 
   ENDMETHOD.
-
 ENDCLASS.

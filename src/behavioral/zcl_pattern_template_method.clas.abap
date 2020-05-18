@@ -9,7 +9,10 @@ CLASS zcl_pattern_template_method DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_pattern_template_method IMPLEMENTATION.
+
+
+CLASS ZCL_PATTERN_TEMPLATE_METHOD IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA:
@@ -21,5 +24,4 @@ CLASS zcl_pattern_template_method IMPLEMENTATION.
                                                 iv_customer = 'John' ).
     out->write( lv_discount ).
   ENDMETHOD.
-
 ENDCLASS.

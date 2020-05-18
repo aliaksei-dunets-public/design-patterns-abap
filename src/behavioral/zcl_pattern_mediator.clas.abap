@@ -9,7 +9,10 @@ CLASS zcl_pattern_mediator DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_pattern_mediator IMPLEMENTATION.
+
+
+CLASS ZCL_PATTERN_MEDIATOR IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -25,5 +28,4 @@ CLASS zcl_pattern_mediator IMPLEMENTATION.
     out->write( lo_invoker1->send_message( 'Hi to all!' ) ).
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -9,7 +9,10 @@ CLASS zcl_factory_method DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_factory_method IMPLEMENTATION.
+
+
+CLASS ZCL_FACTORY_METHOD IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA lo_writer TYPE REF TO lcl_base_writer.
@@ -26,5 +29,4 @@ CLASS zcl_factory_method IMPLEMENTATION.
     out->write( lo_writer_alv->write_data( ) ).
 
   ENDMETHOD.
-
 ENDCLASS.

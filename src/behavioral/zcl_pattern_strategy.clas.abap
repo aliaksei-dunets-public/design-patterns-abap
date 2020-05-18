@@ -9,7 +9,10 @@ CLASS zcl_pattern_strategy DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_pattern_strategy IMPLEMENTATION.
+
+
+CLASS ZCL_PATTERN_STRATEGY IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA:
@@ -26,5 +29,4 @@ CLASS zcl_pattern_strategy IMPLEMENTATION.
     out->write( NEW lcl_strategy_sub( )->execute( iv_a = 10 iv_b = 5 ) ).
 
   ENDMETHOD.
-
 ENDCLASS.

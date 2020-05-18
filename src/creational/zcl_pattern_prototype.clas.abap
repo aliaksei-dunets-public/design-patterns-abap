@@ -9,7 +9,10 @@ CLASS zcl_pattern_prototype DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_pattern_prototype IMPLEMENTATION.
+
+
+CLASS ZCL_PATTERN_PROTOTYPE IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -26,5 +29,4 @@ CLASS zcl_pattern_prototype IMPLEMENTATION.
     out->write( ls_state-entity_id && ls_state-request_id && ls_state-request_data ).
 
   ENDMETHOD.
-
 ENDCLASS.
